@@ -5,7 +5,6 @@ import 'Expense_Page.dart';
 void main() {
   runApp(const ExpenseManagerApp());
 }
-
 class ExpenseManagerApp extends StatelessWidget {
   const ExpenseManagerApp({super.key});
 
