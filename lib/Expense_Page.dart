@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/dashboard_screen.dart';
+import 'screens/home_shell.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -75,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const DashboardScreen(),
+                    builder: (context) => const HomeShell(),
                   ),
                 );
               },
